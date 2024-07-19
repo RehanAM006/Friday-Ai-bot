@@ -82,8 +82,8 @@ def capture_photo(file_path):
 
 def weather(city):
 
-    api_key = "48e895ba1790f7cf1708f66ec4135d85"  # Replace with your OpenWeatherMap API key
-    base_url = "http://api.openweathermap.org/data/2.5/weather"
+    api_key = ""  # Replace with your OpenWeatherMap API key
+    base_url = ""
     params = {
         "q": city,
         "appid": api_key,
@@ -189,7 +189,7 @@ if __name__ == "__main__":
                 speak("Please specify a city to get the weather information.")
 
         elif "message" and "baba" and robot_name in query:
-            phone_number = "03335499594"  # Replace with the recipient's phone number
+            phone_number = ""  # Replace with the recipient's phone number
             message = extract_city(query)  # Use your function to extract the message content
             send_whatsapp_message(phone_number, message)
 
@@ -238,7 +238,7 @@ if __name__ == "__main__":
             if music_query == "none":
                 continue
             if "english" in music_query:
-                music_dir = "F:\\ENTERTAINMENT\\songs\\english"
+                music_dir = ""
                 songs = os.listdir(music_dir)
                 print(songs)
                 if port:
@@ -246,7 +246,7 @@ if __name__ == "__main__":
                 os.startfile(os.path.join(music_dir, songs[0]))
                 speak("Playing English music.")
             elif "indian" in music_query:
-                music_dir2 = "F:\\ENTERTAINMENT\\songs\\indian"
+                music_dir2 = ""
                 songs2 = os.listdir(music_dir2)
                 print(songs2)
                 if port:
