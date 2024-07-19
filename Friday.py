@@ -12,7 +12,7 @@ import requests
 
 
 # Robot name
-robot_name = 'jarvis'
+robot_name = 'friday'
 
 # Greetings
 hi = ["hi", "hello", "hey", "how you doing?"]
