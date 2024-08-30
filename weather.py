@@ -22,6 +22,4 @@ def weather(city):
     except requests.RequestException as e:
         return f"An error occurred: {e}"
 
-# Example usage
-city = "islamabad"
-print(weather(city))
+
