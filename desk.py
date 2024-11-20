@@ -27,7 +27,7 @@ def handle_desk_commands(user_query):
             speak("Please specify a city to get the weather information.")
 
     elif "message" in user_query and "baba" in user_query and config.ROBOT_NAME in user_query:
-        recipient_phone_number = "03335499594"  # Replace with the recipient's phone number
+        recipient_phone_number = "xxxxxxxxx"  # Replace with the recipient's phone number
         message_content = extract_city(user_query)  # Use your function to extract the message content
         send_whatsapp_message(recipient_phone_number, message_content)
 
