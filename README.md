@@ -44,8 +44,8 @@ Jarvis is a personal assistant robot designed to perform a variety of tasks usin
 2. **Clone the Repository:**
 
     ```bash
-    git clone https://github.com/yourusername/jarvis-assistant.git
-    cd jarvis-assistant
+    git clone https://github.com/RehanAM006/Friday-Ai-bot 
+    cd Friday-Ai-bot
     ```
 
 3. **Create a Virtual Environment (Optional but Recommended):**
